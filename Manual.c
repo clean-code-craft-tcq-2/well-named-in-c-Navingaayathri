@@ -9,7 +9,7 @@ void ColorCodeManual()
   	int totalPairs = 25;
   	for (PairCount = 1; PairCount <= totalPairs; PairCount++)
 	{
-		ColorPair colorPair = GetColorFromPairCountber(PairCount);
+		ColorPair colorPair = GetColorFromPairNumber(PairCount);
 		char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
 		ColorPairToString(&colorPair, colorPairNames);
 		printf("%s Pair Number: %d\n", colorPairNames, PairCount);
