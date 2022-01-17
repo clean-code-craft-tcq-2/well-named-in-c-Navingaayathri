@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "Color_mapping.h"
 
 void testNumberToPair(int pairNumber,
